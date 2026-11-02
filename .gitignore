@@ -1,0 +1,59 @@
+## Visual Studio C# .gitignore (ozet)
+
+# Derleme ciktilari
+bin/
+obj/
+out/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+publish/
+
+# Visual Studio dosyalari
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.sln.iml
+*.DotSettings.user
+*.rsuser
+*.ncrunchsolution
+*.ncrunchproject
+
+# Test ciktilari
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+
+# Launch ayarlari
+Properties/launchSettings.json
+
+# Gecici dosyalar
+*.tmp
+*.log
+*.cache
+*.bak
+*.swp
+~$*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
